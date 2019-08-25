@@ -1,0 +1,225 @@
+// Yaman Sanobar
+// 27 January 2019
+// Moonlight
+
+var x1, x2, y1, y2;
+var t = 0;
+
+
+function setup() {
+	createCanvas(1200, 628);
+	angleMode(DEGREES);
+	stroke(255, 30);
+	noFill();
+	background(0, 10, 0);
+}
+
+
+function draw() {
+	translate(600, 314);
+	
+
+	
+	x1 = 10 + 80 * cos(t)
+  y1 = 10 + 80 * sin(t)
+	
+
+	x2 = 10 + 80 * cos(noise(t) * 360)
+  y2 = 10 + 80 * sin(noise(t) * 360)
+	
+stroke(255, 30);
+   if (t < 1750){
+        line(x1, y1, x2, y2);
+	 }
+	
+	
+	x1 = 240 + 1 * cos(t) * sin(noise(t) * 360)
+  y1 = 10 + 1 * sin(t) * cos(noise(t) * 360)
+	
+
+	x2 = 240 + 1 * cos(noise(t) * 360) * sin(noise(t) * 360)
+  y2 = 10 + 1 * sin(noise(t) * 360) * cos(noise(t) * 360)
+	stroke(random(0,255), random(0,255),random(0,255),);
+	line(x1, y1, x2, y2);
+	
+	x1 = -220 + 7 * cos(t) * sin(noise(t) * 360)
+  y1 = -40 + 7 * sin(t) * cos(noise(t) * 360)
+	
+
+	x2 = -220 + 7 * cos(noise(t) * 360) * sin(noise(t) * 360)
+  y2 = -40 + 7 * sin(noise(t) * 360) * cos(noise(t) * 360)
+	stroke(random(0,255), random(0,255),random(0,255),);
+	line(x1, y1, x2, y2);
+	
+	
+	x1 = 220 + 13 * cos(t) * sin(noise(t) * 360)
+  y1 = 40 + 13 * sin(t) * cos(noise(t) * 360)
+	
+
+	x2 = 220 + 13 * cos(noise(t) * 360) * sin(noise(t) * 360)
+  y2 = 40 + 13 * sin(noise(t) * 360) * cos(noise(t) * 360)
+	stroke(random(0,255), random(0,255),random(0,255),);
+	line(x1, y1, x2, y2);
+	
+	x1 = 10 + 5 * cos(t) * sin(noise(t) * 360)
+  y1 = 200 + 5 * sin(t) * cos(noise(t) * 360)
+	
+
+	x2 = 10 + 5 * cos(noise(t) * 360) * sin(noise(t) * 360)
+  y2 = 200 + 5 * sin(noise(t) * 360) * cos(noise(t) * 360)
+	stroke(random(0,255), random(0,255),random(0,255),);
+	line(x1, y1, x2, y2);
+	
+	x1 = 77 + 8 * cos(t) * sin(noise(t) * 360)
+  y1 = -180 + 8 * sin(t) * cos(noise(t) * 360)
+	
+
+	x2 = 77 + 8 * cos(noise(t) * 360) * sin(noise(t) * 360)
+  y2 = -180 + 8 * sin(noise(t) * 360) * cos(noise(t) * 360)
+	stroke(random(0,255), random(0,255),random(0,255),);
+	line(x1, y1, x2, y2);
+	
+		x1 = 200 + 5 * cos(t) * sin(noise(t) * 360)
+  y1 = -144 + 5 * sin(t) * cos(noise(t) * 360)
+	
+
+	x2 = 200 + 0.5 * cos(noise(t) * 360) * sin(noise(t) * 360)
+  y2 = -144 + 0.5 * sin(noise(t) * 360) * cos(noise(t) * 360)
+	stroke(random(0,255), random(0,255),random(0,255),);
+	line(x1, y1, x2, y2);
+	
+	x1 = -240 + 2.5 * cos(t) * sin(noise(t) * 360)
+  y1 = 134 + 2.5 * sin(t) * cos(noise(t) * 360)
+	
+
+	x2 = -240 + 14 * cos(noise(t) * 360) * sin(noise(t) * 360)
+  y2 = 134 + 14 * sin(noise(t) * 360) * cos(noise(t) * 360)
+	stroke(random(0,255), random(0,255),random(0,255),);
+	line(x1, y1, x2, y2);
+	
+	
+	x1 = -147 + 6 * cos(t) * sin(noise(t) * 360)
+  y1 = 33 + 6 * sin(t) * cos(noise(t) * 360)
+	
+
+	x2 = -147 + 6 * cos(noise(t) * 360) * sin(noise(t) * 360)
+  y2 = 33 + 6 * sin(noise(t) * 360) * cos(noise(t) * 360)
+	
+	stroke(random(0,255), random(0,255),random(0,255),);
+	line(x1, y1, x2, y2);
+	
+	x1 = -47 + 9 * cos(t) * sin(noise(t) * 360)
+  y1 = 155 + 9 * sin(t) * cos(noise(t) * 360)
+	
+
+	x2 = -47 + 9 * cos(noise(t) * 360) * sin(noise(t) * 360)
+  y2 = 155 + 9 * sin(noise(t) * 360) * cos(noise(t) * 360)
+	
+	stroke(random(0,255), random(0,255),random(0,255),);
+	line(x1, y1, x2, y2);
+	
+	
+	x1 = -247 + 4 * cos(t) * sin(noise(t) * 360)
+  y1 = -247 + 4 * sin(t) * cos(noise(t) * 360)
+	
+
+	x2 = -247 + 4 * cos(noise(t) * 360) * sin(noise(t) * 360)
+  y2 = -247 + 4 * sin(noise(t) * 360) * cos(noise(t) * 360)
+	
+	stroke(random(0,255), random(0,255),random(0,255),);
+	line(x1, y1, x2, y2);
+	
+	
+	x1 = 195 + 2 * cos(t) * sin(noise(t) * 360)
+  y1 = 195 + 2 * sin(t) * cos(noise(t) * 360)
+	
+
+	x2 = 190 + 2 * cos(noise(t) * 360) * sin(noise(t) * 360)
+  y2 = 199 + 2 * sin(noise(t) * 360) * cos(noise(t) * 360)
+	
+	stroke(random(0,255), random(0,255),random(0,255),);
+	line(x1, y1, x2, y2);
+	
+	
+	
+	x1 = 244 + 2 * cos(t) * sin(noise(t) * 360)
+  y1 = 244 + 2 * sin(t) * cos(noise(t) * 360)
+	
+
+	x2 = 240 + 2 * cos(noise(t) * 360) * sin(noise(t) * 360)
+  y2 = 240 + 2 * sin(noise(t) * 360) * cos(noise(t) * 360)
+	
+	stroke(random(0,255), random(0,255),random(0,255),);
+	line(x1, y1, x2, y2);
+	
+	x1 = -110 + 5 * cos(t) * sin(noise(t) * 360)
+  y1 = -110 + 5 * sin(t) * cos(noise(t) * 360)
+	
+
+	x2 = -122 + 5 * cos(noise(t) * 360) * sin(noise(t) * 360)
+  y2 = -122 + 5 * sin(noise(t) * 360) * cos(noise(t) * 360)
+	
+	stroke(random(0,255), random(0,255),random(0,255),);
+	line(x1, y1, x2, y2);
+	
+	x1 = -50 + 5 * cos(t) * sin(noise(t) * 360)
+  y1 = -220 + 5 * sin(t) * cos(noise(t) * 360)
+	
+
+	x2 = -50 + 12 * cos(noise(t) * 360) * sin(noise(t) * 360)
+  y2 = -220 + 12 * sin(noise(t) * 360) * cos(noise(t) * 360)
+	
+	stroke(random(0,255), random(0,255),random(0,255),);
+	line(x1, y1, x2, y2);
+	
+	x1 = -150 + 8 * cos(t) * sin(noise(t) * 360)
+  y1 = 200 + 8 * sin(t) * cos(noise(t) * 360)
+	
+
+	x2 = -150 + 5 * cos(noise(t) * 360) * sin(noise(t) * 360)
+  y2 = 200 + 5 * sin(noise(t) * 360) * cos(noise(t) * 360)
+	
+	stroke(random(0,255), random(0,255),random(0,255),);
+	line(x1, y1, x2, y2);
+	
+	
+	x1 = -250 + 8 * cos(t) * sin(noise(t) * 360)
+  y1 = 220 + 8 * sin(t) * cos(noise(t) * 360)
+	
+
+	x2 = -150 + 5 * cos(noise(t) * 360) * sin(noise(t) * 360)
+  y2 = 200 + 5 * sin(noise(t) * 360) * cos(noise(t) * 360)
+	
+	stroke(random(0,255), random(0,255),random(0,255),);
+	line(x1, y1, x2, y2);
+	
+	
+	x1 = 333 + 4 * cos(t) * sin(noise(t) * 360)
+  y1 = -195 + 12 * sin(t) * cos(noise(t) * 360)
+	
+
+	x2 = 333 + 4 * cos(noise(t) * 360) * sin(noise(t) * 360)
+  y2 = -199 + 12 * sin(noise(t) * 360) * cos(noise(t) * 360)
+	
+	stroke(random(0,255), random(0,255),random(0,255),);
+	line(x1, y1, x2, y2);
+	
+	x1 = 160 + 10 * cos(t) * sin(noise(t) * 360)
+  y1 = -50 + 2.5 * sin(t) * cos(noise(t) * 360)
+	
+
+	x2 = 175 + 10 * cos(noise(t) * 360) * sin(noise(t) * 360)
+  y2 = -60 + 2.5 * sin(noise(t) * 360) * cos(noise(t) * 360)
+	
+	stroke(random(0,255), random(0,255),random(0,255),);
+	line(x1, y1, x2, y2);
+	
+  t += 1;
+
+}
+
+
+
+
+
+
